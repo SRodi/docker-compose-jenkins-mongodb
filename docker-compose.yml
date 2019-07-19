@@ -3,7 +3,7 @@ services:
     testJenkins:
         build: .
         container_name: "testJenkins"
-        image: srodi/latest
+        image: srodi/jenkins:latest
         volumes: 
             - /var/run/docker.sock:/var/run/docker.sock
         ports:
