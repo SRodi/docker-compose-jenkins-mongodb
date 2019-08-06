@@ -1,7 +1,6 @@
 version: '2.1'
 services:
     testJenkins:
-        build: .
         container_name: "testJenkins"
         image: srodi/jenkins:latest
         volumes: 
